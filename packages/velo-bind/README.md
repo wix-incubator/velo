@@ -1,4 +1,6 @@
-# velo-bind
+# Velo Bind
+[Documentation](https://wix-incubator.github.io/velo)
+
 
 `velo-bind` uses [mobx](https://www.npmjs.com/package/mobx) to bring a reactive programming to Velo and bind wix elements.
 
