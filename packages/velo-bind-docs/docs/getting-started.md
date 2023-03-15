@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # Getting Started
 
-This module is aimed to be used in Wix **[Velo](https://www.wix.com/velo)** environment. make sure you're running on Wix editor with dev mode on.
+This module is aimed to be used in **[Wix Velo](https://www.wix.com/velo/reference/api-overview)** environment. make sure you're running on Wix editor with dev mode on.
 
 ## Installation
 
@@ -16,4 +16,4 @@ Once you have the `@wix/velo-bind` package installed on your site, imported the 
 import { bind } from "velo-bind";
 ```
 
-For more information on how to work with the `bind` function see the **[Basics](../docs/bind/basics.md)**
+For more information on how to work with the `bind` function see the **[basic example](../docs/bind/hello-world.md)**
