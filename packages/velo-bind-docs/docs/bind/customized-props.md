@@ -2,10 +2,10 @@
 sidebar_position: 3
 ---
 
-# Readonly props
+# Customized Properties
 
 Some commonly used properties that are currently declared as readonly may be bound to a piece of state as well.
-Take the [HiddenMixin](https://www.wix.com/velo/reference/$w/hiddenmixin) for example, which is available on almost every element; you may control element visiblity via the `show/hide` api only, while `hidden/isVisible` are readonly props that cannot be set.
+Take the [HiddenMixin](https://www.wix.com/velo/reference/$w/hiddenmixin) for example, which is available on almost every editor element; you may control element visiblity via the `show/hide` api, while `hidden/isVisible` are readonly props that cannot be set.
 Bound elements kinda go around this limitation so the following will work:
 
 ```javascript

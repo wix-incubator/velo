@@ -30,15 +30,15 @@ const FeatureList: FeatureItem[] = [
     ),
   },
   {
-    title: "Loren Ipsum",
-    Svg: require("@site/static/img/undraw_docusaurus_react.svg").default,
+    title: "Based using MobX",
+    Svg: require("@site/static/img/undraw_docusaurus_tree.svg").default,
     description: (
       <>
         Work easily with repeaters, multistate box and other more complex
         elements in the wix editor
       </>
     ),
-  },
+  }
 ];
 
 function Feature({ title, Svg, description }: FeatureItem) {
