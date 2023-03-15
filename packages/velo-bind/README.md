@@ -16,7 +16,9 @@ Follow the [installation instuctions](https://support.wix.com/en/article/velo-wo
 
 ## Examples
 
-Counter:
+### Counter
+
+Given a site with a text element with the ID `#counter`, a `#decrement` and `#increment` buttons:
 
 ```js
 import { makeAutoObservable, bind } from "velo-bind";
@@ -31,7 +33,7 @@ increment.onClick(() => model.count++);
 decrement.onClick(() => model.count--);
 ```
 
-Working with repeaters:
+### Working with repeaters
 A [Repeater](https://www.wix.com/velo/reference/$w/repeater) is a special Wix Editor Element which is responsible for generating a list of elements from either a data-set (dynamic) or an array set by Velo code).
 
 ```js
