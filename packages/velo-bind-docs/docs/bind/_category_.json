@@ -1,8 +1,0 @@
-{
-  "label": "bind",
-  "position": 2,
-  "link": {
-    "type": "generated-index",
-    "description": "The bind function provides a reactive way of setting values to wix elements properties"
-  }
-}

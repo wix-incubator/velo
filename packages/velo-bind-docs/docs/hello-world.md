@@ -1,12 +1,12 @@
 ---
-sidebar_position: 1
+sidebar_position: 3
 ---
 
 # Hello World (Counter)
 
 Given a wix site with the following elements: Text (`#counter`), Button (`#plus`), Button (`#minus`) the code will look as follows:
 
-![Counter Example](../../static/img/counter.png)
+![Counter Example](../static/img/counter.png)
 
 ```javascript
 import { bind, makeAutoObservable } from "@wix/velo-bind";
