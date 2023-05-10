@@ -2,7 +2,7 @@
 /// <reference path="/types/pages/$w.d.ts" />
 /// <reference path="../wix-code-types/dist/types/page/index.d.ts" />
 
-declare module "velo-bind" {
+declare module "@wix/velo-bind" {
   export const bind = (selector: typeof $w) => Bindings;
 }
 
@@ -40,8 +40,3 @@ type Bindings = {
       : () => PageElementsMapWithoutHash[Nickname][Property];
   };
 };
-
-declare type PageElementsMap = {
-  "#button1": $w.Button,
-  "#checkbox": $w.Checkbox,
-}
