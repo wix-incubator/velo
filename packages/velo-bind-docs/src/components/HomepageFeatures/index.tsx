@@ -15,7 +15,8 @@ const FeatureList: FeatureItem[] = [
     Svg: require("@site/static/img/undraw_docusaurus_mountain.svg").default,
     description: (
       <>
-        Add <code>velo-bind</code> to your site's packages and your'e all set. No configuration required.
+        Add <code>velo-bind</code> to your site's packages and your'e all set.
+        No configuration required.
       </>
     ),
   },
@@ -24,8 +25,8 @@ const FeatureList: FeatureItem[] = [
     Svg: require("@site/static/img/undraw_docusaurus_tree.svg").default,
     description: (
       <>
-        Work easily with repeaters, multistate box and other complex
-        elements within the wix editor
+        Work easily with repeaters, multistate box and other complex elements
+        within the wix editor
       </>
     ),
   },
@@ -34,11 +35,15 @@ const FeatureList: FeatureItem[] = [
     Svg: require("@site/static/img/undraw_docusaurus_tree.svg").default,
     description: (
       <>
-        Based on the popular state management library <a href='https://mobx.js.org' target="_blank">mobx</a>.
-        <code>velo-bind</code> lets you harness the power of declartive programing with ease.
+        Based on the popular state management library{" "}
+        <a href="https://mobx.js.org" target="_blank">
+          mobx
+        </a>
+        . <code>velo-bind</code> lets you harness the power of declartive
+        programing with ease.
       </>
     ),
-  }
+  },
 ];
 
 function Feature({ title, Svg, description }: FeatureItem) {

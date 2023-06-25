@@ -31,6 +31,10 @@
   "dependencies": {
     "mobx": "^6.8.0"
   },
+  "files": [
+    "dist",
+    "types"
+  ],
   "publishConfig": {
     "registry": "https://registry.npmjs.org/",
     "logLevel": "verbose",

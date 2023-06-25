@@ -10,7 +10,7 @@ const projectName = "velo";
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: "Velo Bind",
-  tagline: "A reactive way to interact with elements within Wix editors",
+  tagline: "Reactive way to interact with components within Wix editors",
   favicon: "img/favicon.svg",
 
   // Set the production url of your site here

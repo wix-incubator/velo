@@ -29,8 +29,8 @@ const state = makeAutoObservable({
 
 const { counter, increment, decrement } = bind($w);
 counter.text = () => `${state.count}`;
-increment.onClick(() => model.count++);
-decrement.onClick(() => model.count--);
+increment.onClick(() => state.count++);
+decrement.onClick(() => state.count--);
 ```
 
 ### Working with repeaters
