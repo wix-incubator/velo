@@ -2,9 +2,7 @@
 /// <reference path="/types/pages/$w.d.ts" />
 /// <reference path="../wix-code-types/dist/types/page/index.d.ts" />
 
-declare module "velo-bind" {
-  export const bind = (selector: typeof $w) => Bindings;
-}
+declare type PageElementsMap = {};
 
 type PageElementsMapWithoutHash = {
   [K in keyof PageElementsMap extends `#${infer J}`
@@ -40,3 +38,8 @@ type Bindings = {
       : () => PageElementsMapWithoutHash[Nickname][Property];
   };
 };
+
+declare module "@wix/velo-bind" {
+  export const bind = (selector: typeof $w) => Bindings;
+  export { makeAutoObservable, autorun } from "mobx";
+}

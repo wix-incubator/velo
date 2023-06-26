@@ -21,7 +21,7 @@ Follow the [installation instuctions](https://support.wix.com/en/article/velo-wo
 Given a site with a text element with the ID `#counter`, a `#decrement` and `#increment` buttons:
 
 ```js
-import { makeAutoObservable, bind } from "velo-bind";
+import { makeAutoObservable, bind } from "@wix/velo-bind";
 
 const state = makeAutoObservable({
   count: 0,
@@ -37,7 +37,7 @@ decrement.onClick(() => state.count--);
 A [Repeater](https://www.wix.com/velo/reference/$w/repeater) is a special Wix Editor Element which is responsible for generating a list of elements from either a data-set (dynamic) or an array set by Velo code).
 
 ```js
-import { makeAutoObservable, bind } from "velo-bind";
+import { makeAutoObservable, bind } from "@wix/velo-bind";
 
 const state = makeAutoObservable({
   list: [{ value: "myValue" }],
