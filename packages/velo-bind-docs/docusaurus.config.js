@@ -43,6 +43,7 @@ const config = {
         docs: {
           sidebarPath: require.resolve("./sidebars.js"),
           editUrl: `https://github.com/${organizationName}/${projectName}/tree/main`,
+          routeBasePath: '/',
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
@@ -89,11 +90,11 @@ const config = {
             items: [
               {
                 label: "Getting Started",
-                to: "/docs/getting-started",
+                to: "/",
               },
               {
                 label: "Docs",
-                to: "/docs/getting-started",
+                to: "/",
               },
             ],
           },
@@ -102,7 +103,7 @@ const config = {
             items: [
               {
                 label: "GitHub",
-                href: "https://github.com/tombenezra/velo-mvvm/tree/master/packages/velo-bind",
+                href: "https://github.com/wix-incubator/velo/tree/master/packages/velo-bind",
               },
             ],
           },

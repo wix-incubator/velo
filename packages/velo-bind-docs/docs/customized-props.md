@@ -16,7 +16,7 @@ const state = makeAutoObservable({
 });
 const { button } = bind($w);
 button.isVisible = () => buttonVisibility;
-// any change to buttonVisiblity value will change the button visiblity
+// any change to buttonVisibility value will change the button visibility
 ```
 
 These properties currently include:

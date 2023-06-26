@@ -12,7 +12,7 @@ This module is aimed to be used in Wix Velo environment.
 2. Enable Dev Mode
 3. Add `velo-bind` npm module
 
-Follow the [installation instuctions](https://support.wix.com/en/article/velo-working-with-npm-packages) to learn more.
+Follow the [installation instructions](https://support.wix.com/en/article/velo-working-with-npm-packages) to learn more.
 
 ## Examples
 
