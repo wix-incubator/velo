@@ -1,6 +1,6 @@
 {
   "name": "@wix/velo-bind",
-  "version": "1.0.11",
+  "version": "1.0.12",
   "description": "A simple binding library for Velo",
   "main": "./dist/velo-bind.cjs.js",
   "module": "./dist/velo-bind.esm.js",
