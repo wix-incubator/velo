@@ -1,4 +1,4 @@
-const setHandlers: { [prop: string]: Function } = {
+export const setHandlers: { [prop: string]: Function } = {
   isVisible: <T extends $w.HiddenMixin>(element: T, visible: boolean) => {
     if (visible === element.isVisible) {
       return;

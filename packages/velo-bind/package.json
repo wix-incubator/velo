@@ -1,12 +1,16 @@
 {
   "name": "@wix/velo-bind",
-  "version": "1.0.3",
+  "version": "1.0.11",
   "description": "A simple binding library for Velo",
   "main": "./dist/velo-bind.cjs.js",
   "module": "./dist/velo-bind.esm.js",
   "types": "./types/index.d.ts",
   "author": "Tom Ben Ezra <tombe@wix.com>",
   "license": "MIT",
+  "files": [
+    "dist",
+    "types"
+  ],
   "scripts": {
     "build": "tsc && npm run build-bundle:esm && npm run build-bundle:cjs",
     "build-bundle:esm": "esbuild src/index.ts --bundle --format=esm --minify --target=es2020 --platform=browser --outfile=./dist/velo-bind.esm.js",
