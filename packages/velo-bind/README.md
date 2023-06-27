@@ -10,9 +10,9 @@ This module is aimed to be used in Wix Velo environment.
 
 1. Open a Wix Site
 2. Enable Dev Mode
-3. Add `velo-bind` npm module
+3. Add `@wix/velo-bind` npm module
 
-Follow the [installation instuctions](https://support.wix.com/en/article/velo-working-with-npm-packages) to learn more.
+Follow the [installation instructions](https://support.wix.com/en/article/velo-working-with-npm-packages) to learn more.
 
 ## Examples
 
@@ -29,8 +29,8 @@ const state = makeAutoObservable({
 
 const { counter, increment, decrement } = bind($w);
 counter.text = () => `${state.count}`;
-increment.onClick(() => model.count++);
-decrement.onClick(() => model.count--);
+increment.onClick(() => state.count++);
+decrement.onClick(() => state.count--);
 ```
 
 ### Working with repeaters
