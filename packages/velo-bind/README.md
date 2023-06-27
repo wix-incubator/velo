@@ -10,7 +10,7 @@ This module is aimed to be used in Wix Velo environment.
 
 1. Open a Wix Site
 2. Enable Dev Mode
-3. Add `velo-bind` npm module
+3. Add `@wix/velo-bind` npm module
 
 Follow the [installation instructions](https://support.wix.com/en/article/velo-working-with-npm-packages) to learn more.
 
