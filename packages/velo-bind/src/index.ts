@@ -1,5 +1,11 @@
-import mobx, { autorun, makeAutoObservable } from "mobx";
+import mobx, { configure, autorun, makeAutoObservable } from "mobx";
 import { getSettableProperties } from "./utils";
+import { setHandlers } from "./set-handlers";
+import { Bindings } from "@wix/velo-bind";
+
+configure({
+  enforceActions: "never",
+});
 
 const resolveValueIfNeeded = (element: any, property: string, value: any) => {
   let resolvedVal = value;
@@ -41,7 +47,7 @@ const bind = (selector = self.$w) =>
             }
             const element = selector(idWithHashtag) as any;
             element[property] = resolveValueIfNeeded(
-              idWithHashtag,
+              $w(idWithHashtag),
               String(property),
               value
             );
